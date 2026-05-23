@@ -842,14 +842,14 @@ const Dashboard = () => {
             </p>
           </div>
 
-          <div className="flex flex-wrap gap-6 items-center stagger-enter" style={{animationDelay: '200ms'}}>
+          {/* <div className="flex flex-wrap gap-6 items-center stagger-enter" style={{animationDelay: '200ms'}}>
              <button 
-                onClick={(e) => { ripple(e); document.getElementById('dashboard-content').scrollIntoView({ behavior: 'smooth' }); }}
+     
                 className="bg-purple-600 text-white px-8 py-4 rounded font-bold hover:bg-purple-500 transition-all flex items-center gap-2 shadow-lg shadow-purple-900/20"
              >
                 Initialize Strategic Plan <ArrowRight size={18} />
              </button>
-          </div>
+          </div> */}
         </div>
       </div>
 
